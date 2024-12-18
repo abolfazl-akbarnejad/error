@@ -1,0 +1,43 @@
+/*
+
+Theme Name:دست چین
+Theme URI: https://www.rtl-theme.com/parskala-wordpress-theme/
+Author: مسیر وردپرس | حسین اسماعیلیان
+Author URI: https://masirwp.com/
+Version: 3.4.3
+Tags: ابر پوسته وردپرسی فروشگاهی ووکامرس
+Text Domain: parskala
+Domain Path: /languages/
+
+*/
+body .item-pro img{
+    color: transparent;
+    object-fit: contain;
+    transition-duration: .5s;
+}
+body .item-pro:hover img{
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+body .item-pro .thumb-pro::after{
+    background: radial-gradient(50% 50% at 50% 50%,#000 0,transparent 100%);
+    opacity: .4;
+    filter: blur(4px);
+    border-radius: 20px;
+    transition-duration: .5s;
+    width: 180px;
+}
+body .item-pro:hover .thumb-pro::after:hover{
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-rotate: 1deg;
+    height: 20px;
+    margin-top: 28px;
+}
